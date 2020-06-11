@@ -3,9 +3,9 @@ from django.shortcuts import render
 
 class HomePageView(TemplateView):
     template_name = "core/home.html"
-
+    
     def get(self, request, *args, **kwargs):
-        return render(request, self.template_name, {'title':"La Super Web Crack"})    
+        return render(request, self.template_name, {'title':"Mi super web Playgroup"})
 
 class SamplePageView(TemplateView):
-    template_name = "core/sample.html"    
+    template_name = "core/sample.html"

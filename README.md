@@ -1,2 +1,0 @@
-# webplayground
-Proyecto 3
